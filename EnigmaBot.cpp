@@ -1,19 +1,5 @@
-/*
-  Test.h - Test library for Wiring - implementation
-  Copyright (c) 2006 John Doe.  All right reserved.
-*/
-
-// include core Wiring API
-#include "WProgram.h"
-
-// include this library's description file
-#include "Test.h"
-
-// include description files for other libraries used (if any)
-#include "HardwareSerial.h"
-
-// Constructor /////////////////////////////////////////////////////////////////
-// Function that handles the creation and setup of instances
+//include this library's description file
+#include "EnigmaBot.h"
 
 Test::Test(int givenValue)
 {
